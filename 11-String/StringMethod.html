@@ -1,0 +1,55 @@
+<!-- 0: The length property returns the length of a string
+1:The charAt() method returns the character at a specified index (position) in a string
+2: Finding a String in a String
+The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string
+3: The lastIndexOf() method returns the index of the last occurrence of a specified text in a string
+Both the indexOf(), and the lastIndexOf() methods return -1 if the text is not found
+4: The replace() method replaces a specified value with another value in a string
+5:A string is converted to upper case with toUpperCase()
+6:A string is converted to lower case with toLowerCase()
+7: concat() joins two or more strings  -->
+
+<script type="text/javascript">
+	
+	// length() 
+
+	var name =  "Mohit Kapadiya"
+
+	var length = name.length
+
+	document.write(length + '<br>');
+
+
+	// charAt()
+
+	document.write(name.charAt(2) + '<br>');
+
+	// indexOf()
+
+	document.write(name.indexOf('i') + '<br>');
+
+
+	// lastIndexOf()
+	document.write(name.lastIndexOf('i') + '<br>');
+
+	// replace()
+
+	document.write(name.replace('i' ,'t') + '<br>');
+
+	// toUpperCase()
+
+	document.write(name.toUpperCase() + '<br>');
+
+	// toLowerCase()
+
+	document.write(name.toLowerCase() + '<br>');
+
+	// concat()
+
+	var firstName = "Mohit";
+	var lastName = "Kapadiya"
+	document.write(firstName.concat(lastName) + '<br>');
+
+
+
+</script>

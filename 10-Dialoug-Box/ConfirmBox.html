@@ -1,0 +1,33 @@
+<!--  A confirmation dialog box is mostly used to take user's permission on an option. It displays a dialog box with two buttons: Ok and Cancel.
+
+If the user clicks on the OK button, the window method confirm() will return true. If the user clicks on the Cancel button, then confirm() returns false. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ConfirmBox in javaScript</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    function check() {
+        
+        var check = confirm('are you sure you want to delete it ?');
+
+        if(check === true){
+            alert('deleted')
+        }
+        else{
+            alert('not deleted')
+        }
+
+    }
+    
+</script>
+
+<button type="button" onclick="check()">Click Me</button>
+
+</body>
+</html>

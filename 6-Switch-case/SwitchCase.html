@@ -1,0 +1,63 @@
+<!-- syntax : 
+switch(expression){
+ case constant: code;
+     break;
+ case constant : code;
+     break;
+
+ default: code;
+}  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Switch Case in JavaScript</title>
+</head>
+<body>
+
+    <h3>Enter your choice</h3>
+    <ul>
+        <li>Add</li>
+        <li>Sub</li>
+        <li>Mult</li>
+    </ul>
+    <br>
+    <form>
+        <input type="text" name="" id="choice">
+        <br><br>
+        <button onclick="myFun()">Click Me</button>
+    </form>
+
+
+    <script type="text/javascript">
+      function  myFun(){
+            var choice = document.getElementById("choice").value;
+            alert(choice)
+            switch(choice){
+                case "Add" : var a = 10;
+                             var b = 20;
+                             var c = a+b;
+                             document.write('add'+''+c);
+                             break;
+
+                case "Sub" : var a = 10;
+                             var b = 20;
+                             var c = a-b;
+                             document.write('Sub'+''+c);
+                             break;
+
+                case "Mul" : var a = 10;
+                             var b = 20;
+                             var c = a*b;
+                             document.write('Mul'+''+c);
+                             break;
+
+                default : alert("Not a Number")
+
+            }
+        }
+    </script>
+
+</body>
+</html>

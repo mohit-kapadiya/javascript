@@ -1,0 +1,48 @@
+<!-- for - loops through a block of code a number of times
+for/in - loops through the properties of an object
+while - loops through a block of code while a specified condition is true
+do/while - loops through a block of code once, and then repeats the loop while a specified condition is true -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loops in JavaScript</title>
+</head>
+<body>
+<script type="text/javascript">
+	// while loop
+	alert('Loops')
+	document.write('<b> Using While Loop </b>'+'<br>')
+	var  number = 1;
+	while(number <= 10){
+		document.write("number = "+number+'<br>')
+		number++;
+	}
+
+	document.write('<br>')
+
+	// do while loop
+
+	document.write('<b> Using do While Loop </b>'+'<br>')
+
+	var number2 = 20;
+	do{
+		document.write("number = "+number2+'<br>')
+		number2++;
+	}
+	while(number2<=30)
+
+		document.write('<br>')
+	// for loop
+
+	document.write('<b> Using For Loop </b>'+'<br>')
+
+	var c;
+
+	for(c=31; c<41; c++){
+			document.write("number = "+c+'<br>')
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!-- concat() Joins two or more arrays, and returns a copy of the joined arrays.
+indexOf() Search the array for an element and returns its position
+isArray() Checks whether an object is an array
+pop() Removes the last element of an array, and returns that element
+push() Adds new elements to the end of an array, and returns the new length -->
+
+<script type="text/javascript">
+
+	alert('Arrays Methods')
+	
+	var friends = ['Aditya' , 'Uday' , 'Laxman'];
+
+	 // push method
+
+	 friends.push('Nilesh')
+
+	 document.write('<b> push() </b> <br>');
+
+	 document.write(friends+'<br>'+'<br>'); 
+
+	 // pop method 
+
+	 document.write('<b> pop() </b> <br>');
+
+	 friends.pop('Nilesh')
+
+	 document.write(friends+'<br>'+'<br>'); 
+
+	 // shift method
+
+	 // first element remove
+
+	 document.write('<b> shift() </b> <br>');
+
+	 friends.shift();
+
+	 document.write(friends+'<br>'+'<br>'); 
+
+
+	  // unshift method
+
+	  // element add at 0 position
+
+	  document.write('<b> unshift() </b> <br>');
+
+	  friends.unshift('Raj');
+
+	  document.write(friends+'<br>'+'<br>'); 
+
+	  // reverse method
+
+	  document.write('<b> reverse() </b> <br>');
+
+	  friends.reverse();
+
+	  document.write(friends+'<br>'+'<br>'); 
+
+	  // isArray method
+
+
+	  document.write('<b> isArray() </b> <br>');
+
+	  var c =   Array.isArray()
+
+	  document.write(c+'<br>'+'<br>'); 
+
+
+	  // concat method
+
+	  document.write('<b> concat() </b> <br>');
+
+	  var array1 = [1,2,3,4,5];
+	  var array2 = [6,7,8,9,10];
+	  var array3 = array1.concat(array2);
+
+	  document.write(array3+'<br>'+'<br>');
+
+	  // indexOf method
+
+	  document.write('<b> indexOf() </b> <br>');
+
+	  var index = array1.indexOf(1);
+	  document.write(index);
+
+
+	</script>
